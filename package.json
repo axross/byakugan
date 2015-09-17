@@ -1,0 +1,24 @@
+{
+  "name": "byakugan",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./modules/byakugan.js",
+  "scripts": {
+    "bundle": "browserify -t babelify ./sources/byakugan.es6 -o ./modules/byakugan.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axross/byakugan.git"
+  },
+  "author": "axross <kou@axross.org> (http://axross.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axross/byakugan/issues"
+  },
+  "homepage": "https://github.com/axross/byakugan#readme",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0"
+  }
+}
